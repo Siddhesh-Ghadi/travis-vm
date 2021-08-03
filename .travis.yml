@@ -1,0 +1,6 @@
+os: linux-ppc64le
+dist: bionic
+script:
+  - sudo ifconfig
+  - sudo cat /etc/docker/daemon.json
+  - sudo lscpu
